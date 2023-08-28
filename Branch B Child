@@ -1,0 +1,47 @@
+package oops_concepts;
+
+public class Parent {
+	public String name;
+	private int age;
+	protected String location;
+	public Parent(String name, int age, String location) {
+		this.name = name;
+		this.age = age;
+		this.location = location;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+}
+
+package oops_concepts;
+
+public class Child1 extends Parent{
+
+	public Child1(String name, int age, String location) {
+		super(name, age, location);
+	}
+
+	public static void main(String[] args) {
+		Child1 obj = new Child1("sridhar" , 25 , "chennai");
+		System.out.println(obj.location);
+	}
+}
+
+package oops_concepts;
+
+public class Child2 extends Child1 {
+
+	public Child2(String name, int age, String location) {
+		super(name, age, location);
+	}
+
+	public static void main(String[] args) {
+		Child2 obj = new Child2("sridhar" , 25 , "chennai");
+		System.out.println(obj.location);
+	}
+}
+
