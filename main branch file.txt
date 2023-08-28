@@ -15,4 +15,11 @@ public class Parent {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	public static void main(String[] args) {
+
+		Parent obj1 = new Parent("sridhar" , 25 , "location");
+		System.out.println(obj1.name);
+		System.out.println(obj1.getAge());
+		System.out.println(obj1.location);
+	}
 }
