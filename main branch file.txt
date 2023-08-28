@@ -23,3 +23,7 @@ public class Parent {
 		System.out.println(obj1.location);
 	}
 }
+
+log changes
+
+new changes in new branch
