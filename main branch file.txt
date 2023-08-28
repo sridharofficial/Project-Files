@@ -24,6 +24,4 @@ public class Parent {
 	}
 }
 
-log changes
-
-new changes in new branch
+new changes after commiting
