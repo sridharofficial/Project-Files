@@ -22,4 +22,8 @@ public class Parent {
 		System.out.println(obj1.getAge());
 		System.out.println(obj1.location);
 	}
+
+	changed code
+	
+	changes on sample branch
 }
