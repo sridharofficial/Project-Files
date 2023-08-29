@@ -24,5 +24,3 @@ public class Parent {
 		System.out.println(obj1.location);
 	}
 }
-
-changes done by sample branch
